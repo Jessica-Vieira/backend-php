@@ -1,5 +1,5 @@
 <h1>Projetos back-end com php e mysql</h2>
-<p>Repositório criado com o objetivo de deixar registrado o que vou aprendendo no módulo de back-end do técnico</p>
+<p>Repositório criado com o objetivo de deixar registrado o que vou aprendendo no módulo de back-end do técnico de desenvolvimento</p>
 
 <h2>Projeto 1 - Login</h2>
 <p>Após o preenchimento do formulário de login os dados são conferidos e se o usuário e senha estiverem corretos é mostrado a mensagem de boas vindas</p>
