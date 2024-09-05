@@ -1,0 +1,4 @@
+Refeição: a - Calorias: 1
+Refeição: aa - Calorias: 1
+Refeição: qaaa - Calorias: 11111
+Refeição: aa - Calorias: 1111111111112
