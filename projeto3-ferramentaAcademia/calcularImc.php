@@ -10,9 +10,18 @@
             if($peso&&$altura){
                 //verificar se os dados nao sao negativos
                 if($peso>=0&&$altura>=0){
-                    $peso = (float)$peso;
-                    $altura = (float)$altura;
-                    $imc = $peso / ($altura * $altura);
+                    //remover virgula caso tenha
+                    if (strpos($altura, ',') !== false) {
+                        $altura = str_replace(',', '', $altura);
+                    }
+                    //remover ponto caso tenha
+                    if (strpos($altura, '.') !== false) {
+                        $altura = str_replace('.', '', $altura);
+                    }
+                    //convertendo para metro
+                    $altura /= 100;
+                    
+                    $imc = $peso / ($altura**2);
                     
                     $_SESSION['resultadoImc'] = number_format($imc,1,',','');
                 
