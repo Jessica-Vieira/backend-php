@@ -36,7 +36,7 @@ function atualizarTotalCalorias(): void {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['caloria']) && is_numeric($_POST['caloria']) && (int)$_POST['caloria'] > 0) {
-        $refeicao = $_POST['refeicao'] ?? '';
+        $refeicao = (string)$_POST['refeicao'];
         $caloria = (int)$_POST['caloria'];
         adicionarItem($refeicao, $caloria);
 
