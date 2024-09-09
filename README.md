@@ -44,3 +44,26 @@
 <figure>
   <img alt="Tabela do banco de dados de usuários cadastrados" src="https://github.com/user-attachments/assets/76765728-219e-4486-b3d5-690193ff94d0">
 </figure>
+
+<h2>Projeto 3 - Ferramenta de Academia</h2>
+<p>Página com funcionalidades de cáluclo de IMC, lista de dias da semana onde ao selecionar algum será mostrado o treino para o dia e por fim um espaço para adicionar uma refeição e a quantidade de calorias que a mesma contém. </p>
+<h3>Ferramentas e linguagens utilizadas:</h3>
+<ul>
+  <li>php</li>
+  <li>xampp</li>
+  <li>vscode</li>
+  <li>html</li>
+  <li>css</li>
+</ul>
+<figure>
+  <img alt="Página academia" src="https://github.com/user-attachments/assets/ae779bbc-3bcb-43e9-b8ec-76f00930aecc">
+</figure></br>
+<figure>
+  <img alt="Página academia" src="https://github.com/user-attachments/assets/5c962949-043d-481f-bb86-0e2108a681a1">
+</figure></br>
+<figure>
+  <img alt="Página academia" src="https://github.com/user-attachments/assets/096282ae-0f36-417a-ae8a-4b29b7704daf">
+</figure></br>
+
+
+
